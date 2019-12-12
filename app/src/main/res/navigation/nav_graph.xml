@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login_screen">
+    <fragment
+        android:id="@+id/splash_screen"
+        android:name="com.example.eaglevision.splash_screen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splash_screen_to_login_screen"
+            app:destination="@id/login_screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_screen"
+        android:name="com.example.eaglevision.login_screen"
+        android:label="fragment_login_screen"
+        tools:layout="@layout/fragment_login_screen" >
+        <action
+            android:id="@+id/action_login_screen_to_main_menu"
+            app:destination="@id/main_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/main_menu"
+        android:name="com.example.eaglevision.main_menu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_main_menu_to_upload_media_screen"
+            app:destination="@id/upload_media_screen" />
+        <action
+            android:id="@+id/action_main_menu_to_directoryFragment"
+            app:destination="@id/directoryFragment" />
+        <action
+            android:id="@+id/action_main_menu_to_notify"
+            app:destination="@id/notify" />
+        <action
+            android:id="@+id/action_main_menu_to_upload_acqusation"
+            app:destination="@id/upload_acqusation" />
+    </fragment>
+    <fragment
+        android:id="@+id/upload_media_screen"
+        android:name="com.example.eaglevision.upload_media_screen"
+        android:label="fragment_upload_media_screen"
+        tools:layout="@layout/fragment_upload_media_screen">
+        <action
+            android:id="@+id/action_upload_media_screen_to_detailsForm"
+            app:destination="@id/detailsForm" />
+    </fragment>
+    <fragment
+        android:id="@+id/directoryFragment"
+        android:name="com.example.eaglevision.DirectoryFragment"
+        android:label="fragment_directory"
+        tools:layout="@layout/fragment_directory" />
+    <fragment
+        android:id="@+id/detailsForm"
+        android:name="com.example.eaglevision.DetailsForm"
+        android:label="fragment_details_form"
+        tools:layout="@layout/fragment_details_form" >
+        <action
+            android:id="@+id/action_detailsForm_to_confirm_Screen"
+            app:destination="@id/confirm_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirm_Screen"
+        android:name="com.example.eaglevision.Confirm_Screen"
+        android:label="fragment_confirm__screen"
+        tools:layout="@layout/fragment_confirm__screen" >
+        <action
+            android:id="@+id/action_confirm_Screen_to_directoryFragment"
+            app:destination="@id/directoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notify"
+        android:name="com.example.eaglevision.Notify"
+        android:label="fragment_notify"
+        tools:layout="@layout/fragment_notify" />
+    <fragment
+        android:id="@+id/upload_acqusation"
+        android:name="com.example.eaglevision.upload_acqusation"
+        android:label="fragment_upload_acqusation"
+        tools:layout="@layout/fragment_upload_acqusation" />
+</navigation>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "154700773538",
+    "firebase_url": "https://eaglevision-e3584.firebaseio.com",
+    "project_id": "eaglevision-e3584",
+    "storage_bucket": "eaglevision-e3584.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154700773538:android:0f4c9f392827f2acefbffb",
+        "android_client_info": {
+          "package_name": "com.example.eaglevision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154700773538-vmgef2k5pn9f6kdtcabur4qvkmu1ud0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eaglevision",
+            "certificate_hash": "429218611df337f20f6edd65c82259609f2ba988"
+          }
+        },
+        {
+          "client_id": "154700773538-k12a0s7f8bqnhjb089oghbut9q7tcujj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eaglevision",
+            "certificate_hash": "d6997e713822125ff60fc0b8da0d6a2879be0968"
+          }
+        },
+        {
+          "client_id": "154700773538-jg9aquct9g1evm2m0bhc2b32lr1uhfls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcT5DtCvCfcqtNBZ05WIoAl0yJOBf8xuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154700773538-jg9aquct9g1evm2m0bhc2b32lr1uhfls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
